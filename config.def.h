@@ -60,7 +60,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_black, "-sb", col_yellow, "-sf", col_darkyellow, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_darkyellow, "-nf", col_black, "-sb", col_yellow, "-sf", col_black, NULL };
 static const char *termcmd[]  = { "xfce4-terminal", NULL };
 
 static Key keys[] = {
